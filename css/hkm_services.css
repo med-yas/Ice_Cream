@@ -1,0 +1,89 @@
+
+.hkm_services{
+    width: 100%;
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+.hkm_servicesContainer{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+}
+.hkm_servicesHeadings{
+    width: 60%;
+    margin: auto;
+}
+.hkm_servicesHeadings h1{
+    font-size: 40px;
+    font-weight: 700;
+    text-transform: uppercase;
+    line-height: 1.2em;
+    color: #282828;
+    margin-bottom: 30px;
+}
+
+.hkm_servicesHeadings p{
+    color: #282828;
+    font-size: 18px;
+
+}
+.hkm_servicesPanels{
+    display: flex;
+    justify-content: center;
+    margin-top: 60px;
+    flex-wrap: wrap;
+}
+.hkm_servicesPanels div{
+    width: 25%;
+    position: relative;
+    min-height: 1px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #e5e5e5;
+    transition: background .3s,border .3s,border-radius .3s,box-shadow .3s;
+    margin: 15px;
+    padding: 55px 15px;
+}
+.hkm_servicesPanels div:hover{
+    border-color: red;
+}
+.hkm_servicesPanels div>img{
+    width: 135.663px;
+    height: 152.337px;
+    margin-bottom: 15px;
+}
+.hkm_servicesPanels div>img:hover {
+    transform: scale(1.2); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
+.hkm_servicesPanels div>h2{
+    color: #282828;
+    font-family: "Assistant",Sans-serif;
+    font-size: 25px;
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+.hkm_servicesPanels div>p{
+    color: #282828;
+    font-family: "Assistant",Sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.7em;
+}
+
+.hkm_servicesPanels div a>input{
+    border:none; 
+    font-family: "Assistant",Sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    text-transform: uppercase;
+    fill: #fff;
+    color: #fff;
+    background-color: #000;
+    border-radius: 0;
+    padding: 15px 45px;
+    margin-top: 30px;
+}
+.hkm_servicesPanels div a>input:hover{
+    cursor: pointer;
+    background-color: red;
+}

@@ -1,0 +1,2 @@
+- The design is not original.
+- Any non working function will be working in the future.

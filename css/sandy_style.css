@@ -1,0 +1,235 @@
+
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.sa_section9 {
+    padding-top: 60px;
+    padding-bottom: 60px;
+    width: 80%;
+    display: flex;
+    margin: auto;
+  }
+
+
+  .sa_map{
+    width:50%;
+  
+  }
+
+  .sa_feedback{
+   padding-top: 25px;
+   padding-left: 80px;
+   width: 100%; /*width l name wl phone w kda*/
+   font-size: 20px;
+   line-height: 1; /* el msafa ben boxes l form*/
+   /* font-style: italic; */
+   
+    
+
+}
+
+.sa_sendus{
+  
+    margin-bottom: 30px;
+    font-size: 32px;
+    color: coral;
+    /* font-style: italic; */
+   font-family:  "Great Vibes",Sans-serif;
+}
+
+.sa_feedback h2{
+ 
+    color: black;
+    font-family: "Chewy",sans-serif;
+    font-size: 50px;
+    font-weight: 400;
+    margin-bottom: 50px;
+
+}
+
+
+.sa_text{
+  
+    padding: 16px 32px;
+    margin: 15px 0px 12px;
+    border: none;
+    background: rgba(0,0,0,.04);
+    width: 100%; /*3rd l text box*/
+    height: 63px;
+    border-radius: 30px;
+}
+
+.sa_message{
+  height: 150px;
+} 
+
+.sa_button{
+  padding: 10px 40px;
+  border: none;
+  font-size: 17px;
+  cursor: pointer;
+  font-weight: 600;
+  border-radius: 40px;
+  margin-top: 20px;
+  height: 50px;
+  color: #ffffff;
+  background: #ff4756;    
+ 
+}
+
+.sa_section10{
+
+  background-image: url(../img/sandy_footer-bg.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: inherit;
+  position: 0px 0px 0px;
+  margin: 0px 0px 0px;
+  
+  
+}
+
+
+  .sa_logo{
+   padding: 70px 0px 40p;
+   position: relative;
+   margin: auto;
+   left: 0PX; /* 3shan ageb l logo fl nos bs kda mesh mazbot*/
+  
+  }
+
+  .sa_logo img
+  {
+    display: block;
+    margin: auto;
+    padding-top: 33px;
+  } 
+
+  .sa_middle{
+
+    display: flex;
+    /* margin-left: 200px; */
+    margin: auto;
+    margin-top: 85px;
+    width: 80%;
+    padding: 35px 0px 40px;
+    flex-wrap: wrap;
+    justify-content: center;
+   
+  }
+
+   .sa_address{
+     
+    background-color: #d43c3a;
+    border-radius: 20px;
+    width: 310px;
+    height: 120px;
+    text-align: center;
+    padding: 0px 20px 25px;
+    /* margin-right: 57px; */
+    /* margin-left: 45px;*/
+     
+   }
+    .sa_follow{
+      /* padding: 30px 20px 25px;  */
+      margin-left: 60px;
+      margin-right: 60px;
+    }
+
+   .sa_para{
+    font-size: 17px;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    padding: 30px 20px 25px;
+   }
+
+   .sa_sandy{
+     position: center;
+     text-align: center;
+     font-weight: bold;
+     color: white;
+   }
+    .sa_l{
+  /* di linkat l social media w m3aha sewr l social media*/
+  /*lessssaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa l hover 2li hwa lama a2f l lon bta3 l dayra yt8yr*/
+   display: inline-block;
+   height: 72px;
+   width: 50px;
+}
+.sa_social{
+
+  /*di sewr l social media*/
+  display: flex;
+  border-radius: 100%;
+  max-block-size: 65%; /* 7gm logo l face w twitter w kda*/
+}
+
+
+.sa_contact{
+
+  background-color: #4ca48f;
+  border-radius: 20px;
+  width: 310px;
+  height: 120px;
+  text-align: center;
+  padding: 0px 20px 25px;
+  /* margin-left: 40px; */
+  /* float: right;*/
+
+ }
+.sa_menu{
+
+  background-color: rgba(30, 11, 0, 0.6);
+  padding: 30px 20px 20px;
+  text-align: center;
+  width: 80%;
+  margin: auto;
+  border-radius: 20px;
+ 
+}
+
+.sa_c{
+
+   text-decoration: none;
+   color:white;
+   margin: 0px 20px 10px;
+   font-size: 17px;
+}
+.sa_c:hover{
+  color: aqua;
+}
+.sa_c:active{
+  color: yellowgreen;
+}
+  .sa_copytext{
+    color: white;
+    background-color: #1B0A00;
+    padding: 35px 0 32px;
+    text-align: center;
+    font-size: 13px;
+   
+  }
+
+  .sa_up {
+    display: none; /* 3shan malosh lazma awl ma aft7 */
+    position: fixed; 
+    bottom: 10px; 
+    right: 60px; 
+    border: none; 
+    background-color: rgb(161, 15, 15); 
+    color: white; 
+    cursor: pointer;
+    padding: 15px; 
+    border-radius: 50px; 
+    font-size: 15px; 
+  }
+  
+  .sa_up:hover {
+    background-color: teal; 
+  }
+
